@@ -3,9 +3,9 @@ tags:
   - fleeting
 created: 2026-04-09
 status: open
-sr-due: 2026-04-10
+sr-due: 2026-04-12
 sr-interval: 1
-sr-ease: 230
+sr-ease: 210
 ---
 ![[20260409_083912.jpg]]
 

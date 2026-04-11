@@ -7,6 +7,9 @@ up: "[[Radiation]]"
 created: 2026-04-10
 status: open
 publish: true
+sr-due: 2026-04-14
+sr-interval: 3
+sr-ease: 250
 ---
 Decay constant is unique to an isotope and reflects how radioactive said isotope is.
 
