@@ -6,6 +6,7 @@ status: open
 sr-due: 2026-04-16
 sr-interval: 8
 sr-ease: 250
+publish: true
 ---
 
 > [!quote] Original Capture

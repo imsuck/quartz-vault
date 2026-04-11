@@ -7,9 +7,9 @@ status: open
 title: yap about my own setup
 priority: normal
 dateModified: 2026-04-07T07:51:50.937+07:00
-sr-due: 2026-04-10
-sr-interval: 3
-sr-ease: 250
+sr-due: 2026-04-25
+sr-interval: 14
+sr-ease: 270
 ---
 
 device setup so syncthing and keepass whatever

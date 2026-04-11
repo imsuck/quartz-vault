@@ -3,8 +3,8 @@ tags:
   - fleeting
 created: 2026-03-31
 status: open
-sr-due: 2026-04-11
-sr-interval: 3
+sr-due: 2026-04-17
+sr-interval: 6
 sr-ease: 210
 ---
 $$["Điểm xét tuyển"] = 0.7["Điểm năng lực"] + 0.2["Điểm TNTHPT"] + 0.1["Điểm THPT"]$$

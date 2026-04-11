@@ -1,8 +1,11 @@
 ---
 tags:
   - fleeting
-created: "2026-04-09"
+created: 2026-04-09
 status: open
+sr-due: 2026-04-12
+sr-interval: 1
+sr-ease: 230
 ---
 There was a bit of prompting and holding a conversation with ChatGPT here.
 ## Context
