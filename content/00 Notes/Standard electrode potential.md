@@ -1,0 +1,53 @@
+---
+categories:
+tags:
+  - atomic
+  - chemistry
+up:
+created: 2026-03-31
+status: open
+sr-due: 2026-04-20
+sr-interval: 12
+sr-ease: 230
+publish: true
+---
+
+## Data table
+Note: ions should be considered aqueous
+$$
+#table(
+  columns: (auto, auto, auto, auto, auto, auto),
+  inset: 8pt,
+  stroke: 1pt,
+  table.header([Redox pair], [Half-reaction], [], [], [*E°* (volt)], [Notes]),
+  [Li⁺/Li],     [$"Li"^+ + e^-$],       [⇌], [$"Li"(s)$],            [-3.04], [],
+  [K⁺/K],       [$"K"^+ + e^-$],        [⇌], [$"K"(s)$],             [-2.93], [],
+  [Ba²⁺/Ba],    [$"Ba"^(2+) + 2e^-$],   [⇌], [$"Ba"(s)$],            [-2.92], [],
+  [Ca²⁺/Ca],    [$"Ca"^(2+) + 2e^-$],   [⇌], [$"Ca"(s)$],            [-2.87], [],
+  [Na⁺/Na],     [$"Na"^+ + e^-$],       [⇌], [$"Na"(s)$],            [-2.71], [],
+  [Mg²⁺/Mg],    [$"Mg"^(2+) + 2e^-$],   [⇌], [$"Mg"(s)$],            [-2.37], [],
+  [Al³⁺/Al],    [$"Al"^(3+) + 3e^-$],   [⇌], [$"Al"(s)$],            [-1.66], [],
+  [Mn²⁺/Mn],    [$"Mn"^(2+) + 2e^-$],   [⇌], [$"Mn"(s)$],            [-1.18], [],
+  [H₂O/H₂],     [$2"H"_2"O"(l) + 2e^-$],[⇌], [$"H"_2(g) + 2"OH"^-$], [-0.83], [Basic],
+  [Zn²⁺/Zn],    [$"Zn"^(2+) + 2e^-$],   [⇌], [$"Zn"(s)$],            [-0.76], [],
+  [Cr³⁺/Cr],    [$"Cr"^(3+) + 3e^-$],   [⇌], [$"Cr"(s)$],            [-0.74], [],
+  [Fe²⁺/Fe],    [$"Fe"^(2+) + 2e^-$],   [⇌], [$"Fe"(s)$],            [-0.44], [],
+  [Ni²⁺/Ni],    [$"Ni"^(2+) + 2e^-$],   [⇌], [$"Ni"(s)$],            [-0.25], [],
+  [Sn²⁺/Sn],    [$"Sn"^(2+) + 2e^-$],   [⇌], [$"Sn"(s)$],            [-0.14], [],
+  [Pb²⁺/Pb],    [$"Pb"^(2+) + 2e^-$],   [⇌], [$"Pb"(s)$],            [-0.13], [],
+  [Fe³⁺/Fe],    [$"Fe"^(3+) + 3e^-$],   [⇌], [$"Fe"(s)$],            [-0.04], [],
+  [H⁺/H₂],      [$2"H"^+ + 2e^-$],      [⇌], [$"H"_2(g)$],           [ 0.00], [Acidic],
+  [Cu²⁺/Cu],    [$"Cu"^(2+) + 2e^-$],   [⇌], [$"Cu"(s)$],            [+0.34], [],
+  [Fe³⁺/Fe²⁺],  [$"Fe"^(3+) + e^-$],    [⇌], [$"Fe"^(2+)$],          [+0.77], [],
+  [Hg₂²⁺/Hg],   [$"Hg"_2^(2+) + 2e^-$], [⇌], [$2"Hg"(l)$],           [+0.79], [],
+  [Ag⁺/Ag],     [$"Ag"^+ + e^-$],       [⇌], [$"Ag"(s)$],            [+0.80], [],
+  [Hg²⁺/Hg],    [$"Hg"^(2+) + 2e^-$],   [⇌], [$"Hg"(l)$],            [+0.85], [],
+  [Pt²⁺/Pt],    [$"Pt"^(2+) + 2e^-$],   [⇌], [$"Pt"(s)$],            [+1.19], [],
+  [Au³⁺/Au],    [$"Au"^(3+) + 3e^-$],   [⇌], [$"Au"(s)$],            [+1.50], [],
+)
+$$
+
+## See also
+
+## References
+[Wikipedia page for data](https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page))

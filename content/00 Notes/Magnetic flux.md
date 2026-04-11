@@ -1,0 +1,17 @@
+---
+categories:
+tags:
+  - atomic
+  - physics/em
+up:
+created: 2026-04-09
+status: open
+---
+Measures how much [[Magnetic field]] passes through a surface. Unit: Weber (Wb)
+$$Phi = arrow(B) dot A arrow(n)$$
+Where $n$ is the unit normal vector of the surface.
+## Related
+[[Faraday's law of Electromagnetic Induction]]
+## Applications
+
+## References

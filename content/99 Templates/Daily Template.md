@@ -1,0 +1,8 @@
+---
+tags:
+  - daily
+---
+
+## Journal
+
+## Events

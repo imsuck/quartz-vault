@@ -1,0 +1,27 @@
+formulas:
+  Days til Birthday: |-
+    date(
+    if(today().month <= birthdate.month, today().year, today().year + 1)+"-"+
+    if(birthdate.month.toString().length == 1, "0"+ birthdate.month, birthdate.month)+'-'+
+    if(birthdate.day.toString().length == 1, "0"+ birthdate.day, birthdate.day)
+    ).relative() 
+properties:
+  formula.Days til Birthday:
+    displayName: til birthday
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.inFolder("99 Templates")'
+        - categories.contains(link("People"))
+    order:
+      - file.name
+      - formula.Days til Birthday
+      - birthdate
+    sort:
+      - property: formula.Days til Birthday
+        direction: ASC
+    columnSize:
+      file.name: 307
+      formula.Days til Birthday: 244

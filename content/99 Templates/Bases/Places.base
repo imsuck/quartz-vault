@@ -1,0 +1,20 @@
+formulas:
+  Untitled: link("https://www.google.com/maps/search/" + file.name.replace(" ","+"), file.name)
+properties:
+  formula.Untitled:
+    displayName: Google Maps
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - categories.contains(link("Places"))
+        - '!file.inFolder("99 Templates")'
+    order:
+      - file.name
+      - formula.Untitled
+    coordinates: note.coordinates
+    markerIcon: note.icon
+    markerColor: note.color
+    mapTilesDark: []
+    mapTiles: []

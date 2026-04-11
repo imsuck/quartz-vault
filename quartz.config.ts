@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "imsuck's vault",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,39 +16,44 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "imsuck.vercel.app",
+    ignorePatterns: ["99 Templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Noto Sans",
+        body: "Lexend",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#eff1f5",        // base
+          lightgray: "#e6e9ef",    // mantle
+          gray: "#bcc0cc",         // overlay1
+          darkgray: "#4c4f69",     // text
+          dark: "#4c4f69",         // text
+
+          secondary: "#1e66f5",    // blue
+          tertiary: "#6c6f85",     // subtext0
+
+          highlight: "rgba(30, 102, 245, 0.12)",  // blue w/ alpha
+          textHighlight: "#df8e1d88"              // yellow/orange w/ alpha
         },
+
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#24273a",        // base
+          lightgray: "#363a4f",    // surface0
+          gray: "#6e738d",         // overlay0
+          darkgray: "#cad3f5",     // text
+          dark: "#f4dbd6",         // rosewater (high contrast accent)
+
+          secondary: "#8aadf4",    // blue
+          tertiary: "#a5adcb",     // subtext0
+
+          highlight: "rgba(138, 173, 244, 0.16)", // blue w/ alpha
+          textHighlight: "#eed49f88"              // yellow w/ alpha
         },
       },
     },
@@ -61,8 +66,8 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "catppuccin-latte",
+          dark: "catppuccin-macchiato",
         },
         keepBackground: false,
       }),
@@ -71,9 +76,9 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({ renderEngine: "typst" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [Plugin.ExplicitPublish()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
