@@ -1,0 +1,12 @@
+---
+categories:
+  - "[[Animes]]"
+status: plan-to-watch
+playlist: https://aniwatchtv.to/agents-of-the-four-seasons-dance-of-spring-20650
+watched: 0
+episodes: 14
+premiered: spring 2026
+created: 2026-04-07
+aliases:
+  - 4seasons
+---
