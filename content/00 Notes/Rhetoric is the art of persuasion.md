@@ -12,7 +12,7 @@ publish: true
 ---
 According to Aristotle, rhetoric is the art of persuasion, or more specifically, rhetoric is the act of figuring out which means of persuasion are most effective for a given [[Rhetorical situation|situation]]. This means using [[Rhetorical de vice|rhetorical devices]], like comparison, or considering careful word choices, like "terrorist" versus "freedom fighter".
 ## Related
-
+Up: [[Rhetoric]]
 ## Applications
 
 ## References

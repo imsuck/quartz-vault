@@ -16,6 +16,7 @@ Decay constant is unique to an isotope and reflects how radioactive said isotope
 $$lambda = (ln 2)/T_(1"/"2)$$
 - $T_(1"/"2)$: [[Half-life]] of the isotope
 ## Related
+Up: [[Radiation]]
 [[Radioactivity]]
 ## Applications
 

@@ -13,9 +13,10 @@ sr-ease: 250
 ---
 $$A=lambda N$$
 - $A$: activity (decays per second)
-- $lambda$: [[Decay constant]]
+- $lambda$: [[Decay Constant]]
 - $N$: number of undecayed nuclei
 ## Related
+Up: [[Radiation]]
 [[Half-life]]
 ## Applications
 

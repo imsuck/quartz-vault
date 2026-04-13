@@ -12,6 +12,7 @@ publish: true
 ---
 [Typerino](https://typerino.com/) is an online typst equation editor.
 ## Related
+Up: [[Utilities]]
 [[Quiver]]
 ## Applications
 

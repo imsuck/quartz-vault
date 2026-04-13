@@ -9,4 +9,8 @@ premiered: fall 2023
 created: 2026-04-06
 aliases:
   - frieren
+tags:
+  - genre/fantasy
+  - genre/drama
+  - genre/adventure
 ---

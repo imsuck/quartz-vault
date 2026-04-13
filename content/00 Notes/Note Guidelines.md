@@ -22,7 +22,7 @@ Types of notes:
 	- [[Précis]] structured
 - `#atomic` notes: single self-contained ideas linked (agressively) with `#literature` and other `#atomic` notes
 ## Related
-
+Up: [[Note taking]]
 ## Applications
 Specific implementation, applications in real life, a case study, etc.
 ## References
