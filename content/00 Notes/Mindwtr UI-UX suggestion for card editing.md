@@ -5,8 +5,8 @@ dateCreated: 2026-03-03T17:13:21.987+07:00
 dateModified: 2026-03-04T13:41:43.923+07:00
 tags:
   - task
-sr-due: 2026-04-13
-sr-interval: 10
+sr-due: 2026-05-10
+sr-interval: 27
 sr-ease: 270
 ---
 

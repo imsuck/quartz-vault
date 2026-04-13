@@ -8,7 +8,7 @@ created: 2026-04-13
 status: open
 publish: true
 ---
-
+CRDT allows [[Decentralization|decentralized]] collaborative work by enforcing constraints on how edits are merged. Specifically, the merging operations need to be [[Commutative|commutative]] and [[Associative||associative]]. These constraints allow each replicas to be *eventually consistent* once they communicate with each other.
 ## Related
 
 ## Applications
