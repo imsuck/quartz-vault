@@ -35,8 +35,8 @@ const config: QuartzConfig = {
           darkgray: "#4c4f69",     // text
           dark: "#2b2c3b",         // text with 20% lightness
 
-          secondary: "#6c6f85",    // subtext0
-          tertiary: "#1e66f5",     // blue
+          secondary: "#1e66f5",    // blue
+          tertiary: "#40a02b",     // green
 
           highlight: "rgba(30, 102, 245, 0.12)",  // blue w/ alpha
           textHighlight: "#df8e1d88"              // yellow w/ alpha
@@ -47,10 +47,10 @@ const config: QuartzConfig = {
           lightgray: "#363a4f",    // surface0
           gray: "#6e738d",         // overlay0
           darkgray: "#cad3f5",     // text
-          dark: "#f4dbd6",         // rosewater (high contrast accent)
+          dark: "#f4dbd6",         // rosewater
 
-          secondary: "#a5adcb",    // subtext0
-          tertiary: "#8aadf4",     // blue
+          secondary: "#8aadf4",    // blue
+          tertiary: "#a6da95",     // green
 
           highlight: "rgba(138, 173, 244, 0.16)", // blue w/ alpha
           textHighlight: "#eed49f88"              // yellow w/ alpha
