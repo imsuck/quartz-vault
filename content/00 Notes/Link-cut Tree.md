@@ -6,8 +6,8 @@ tags:
 up: "[[Tree data structure]]"
 created: 2026-04-10
 status: open
-sr-due: 2026-04-14
-sr-interval: 3
+sr-due: 2026-04-21
+sr-interval: 7
 sr-ease: 250
 publish: true
 ---

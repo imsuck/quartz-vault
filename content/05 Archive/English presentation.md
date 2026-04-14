@@ -1,5 +1,5 @@
 ---
-created: "2026-03-30"
+created: 2026-03-30
 categories:
-  - "[[Project]]"
+  - "[[Projects]]"
 ---

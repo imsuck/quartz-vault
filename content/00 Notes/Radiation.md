@@ -7,8 +7,8 @@ up:
 created: 2026-04-10
 status: open
 publish: true
-sr-due: 2026-04-14
-sr-interval: 3
+sr-due: 2026-04-22
+sr-interval: 8
 sr-ease: 250
 ---
 Radiation brings an atom from a high energy state to a lower energy state, thus making it more stable.

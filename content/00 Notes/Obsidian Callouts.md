@@ -5,9 +5,9 @@ tags:
 up: "[[Obsidian usage]]"
 created: 2026-03-30
 status: open
-sr-due: 2026-04-13
-sr-interval: 10
-sr-ease: 270
+sr-due: 2026-04-21
+sr-interval: 8
+sr-ease: 210
 publish: true
 ---
 ## List of callouts

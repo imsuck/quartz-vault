@@ -1,7 +1,7 @@
 ---
 title: teto skribbl sprite
 status: open
-priority: low
+priority: 2
 dateCreated: 2026-03-24T23:48:00.876+07:00
 dateModified: 2026-03-30T20:19:09.309+07:00
 tags:

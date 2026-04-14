@@ -14,6 +14,7 @@ publish: true
 
 ## Data table
 Note: ions should be considered aqueous
+
 $$
 #table(
   columns: (auto, auto, auto, auto, auto, auto),

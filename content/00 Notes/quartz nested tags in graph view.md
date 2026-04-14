@@ -6,6 +6,9 @@ dateCreated: 2026-04-13T20:47:59.368+07:00
 dateModified: 2026-04-13T20:52:00.304+07:00
 tags:
   - task
+sr-due: 2026-04-16
+sr-interval: 3
+sr-ease: 250
 ---
 
 here's the source code for the graph component:

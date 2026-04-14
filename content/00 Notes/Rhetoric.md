@@ -2,11 +2,12 @@
 categories:
 tags:
   - atomic
+  - topic
 up:
 created: 2026-04-04
 status: open
-sr-due: 2026-04-13
-sr-interval: 5
+sr-due: 2026-04-23
+sr-interval: 10
 sr-ease: 226
 ---
 

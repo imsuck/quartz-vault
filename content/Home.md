@@ -6,6 +6,7 @@
 > Calendar: [[tn-calendar.base|Calendar]]
 
 # Notes
+Recently edited
 ```base
 properties:
   file.mtime:
@@ -32,5 +33,29 @@ views:
     sort:
       - property: file.mtime
         direction: DESC
+
+```
+
+Unstable notes
+```base
+formulas:
+  linkDiff: file.backlinks.length - file.links.length
+  absLinkDiff: if(formula.linkDiff < 0, -formula.linkDiff, formula.linkDiff)
+views:
+  - type: table
+    name: Table
+    filters:
+      not:
+        - file.tags.contains("categories")
+        - file.inFolder("99 Templates")
+    order:
+      - file.name
+      - formula.linkDiff
+      - file.backlinks
+      - file.links
+    sort:
+      - property: formula.absLinkDiff
+        direction: DESC
+    limit: 10
 
 ```

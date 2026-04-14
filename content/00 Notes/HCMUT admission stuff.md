@@ -7,7 +7,10 @@ sr-due: 2026-04-17
 sr-interval: 6
 sr-ease: 210
 ---
+## set goals for thptqg
+
 $$["Điểm xét tuyển"] = 0.7["Điểm năng lực"] + 0.2["Điểm TNTHPT"] + 0.1["Điểm THPT"]$$
+
 **Điểm Toán always ×2.**
 
 **Ngưỡng đảm bảo chất lượng đầu vào:**

@@ -4,4 +4,6 @@ publish: true
 ---
 Hello! This is my vault.
 
-For something actually useful, see my [competitive programming library](https://imsuck.github.io/library).
+For semi-"Map of Content" see #topic. You will probably find something more interesting there.
+
+For actually useful, see my [competitive programming library](https://imsuck.github.io/library).

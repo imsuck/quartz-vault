@@ -7,8 +7,8 @@ dateModified: 2026-03-04T16:21:12.006+07:00
 tags:
   - tasknotes
   - task
-sr-due: 2026-04-13
-sr-interval: 10
+sr-due: 2026-05-09
+sr-interval: 26
 sr-ease: 270
 ---
 
