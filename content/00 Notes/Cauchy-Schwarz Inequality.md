@@ -11,7 +11,7 @@ sr-due: 2026-04-18
 sr-interval: 4
 sr-ease: 270
 ---
-$$|chevron.l bold(u), bold(v) chevron.r| <= ||bold(u)||||bold(v)||$$
+$$|angle.l bold(u), bold(v) angle.r| <= ||bold(u)||||bold(v)||$$
 Or the more familiar real number version
 $$(sum u_i v_i)^2 <= (sum u_i^2)(sum v_i^2)$$
 
