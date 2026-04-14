@@ -19,7 +19,7 @@ $$
 S= |x+2|+|y-3| = |x+2|+2/(|x+2|)
 $$
 
-$S$ is minimized when $|x+2| = sqrt(2)$ via [[AM-GM]] ($min S = 2sqrt(2)$)
+$S$ is minimized when $|x+2| = sqrt(2)$ via [[AM-GM Inequality]] ($min S = 2sqrt(2)$)
 
 ### Case $deg(2)/deg(1)$
 
