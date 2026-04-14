@@ -30,16 +30,16 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#eff1f5",        // base
-          lightgray: "#e6e9ef",    // mantle
+          lightgray: "#acb0be",    // mantle
           gray: "#bcc0cc",         // overlay1
           darkgray: "#4c4f69",     // text
-          dark: "#4c4f69",         // text
+          dark: "#2b2c3b",         // text with 20% lightness
 
-          secondary: "#1e66f5",    // blue
-          tertiary: "#6c6f85",     // subtext0
+          secondary: "#6c6f85",    // subtext0
+          tertiary: "#1e66f5",     // blue
 
           highlight: "rgba(30, 102, 245, 0.12)",  // blue w/ alpha
-          textHighlight: "#df8e1d88"              // yellow/orange w/ alpha
+          textHighlight: "#df8e1d88"              // yellow w/ alpha
         },
 
         darkMode: {
@@ -49,8 +49,8 @@ const config: QuartzConfig = {
           darkgray: "#cad3f5",     // text
           dark: "#f4dbd6",         // rosewater (high contrast accent)
 
-          secondary: "#8aadf4",    // blue
-          tertiary: "#a5adcb",     // subtext0
+          secondary: "#a5adcb",    // subtext0
+          tertiary: "#8aadf4",     // blue
 
           highlight: "rgba(138, 173, 244, 0.16)", // blue w/ alpha
           textHighlight: "#eed49f88"              // yellow w/ alpha
