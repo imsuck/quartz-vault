@@ -1,7 +1,7 @@
 ---
 title: Tasknotes right-click to select status
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-03-04T16:21:12.006+07:00
 dateModified: 2026-03-04T16:21:12.006+07:00
 tags:

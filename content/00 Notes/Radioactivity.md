@@ -12,7 +12,9 @@ sr-interval: 4
 sr-ease: 230
 ---
 
-$$A=lambda N$$
+$$
+A=lambda N
+$$
 
 - $A$: activity (decays per second)
 - $lambda$: [[Decay Constant]]

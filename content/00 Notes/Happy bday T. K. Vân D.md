@@ -1,7 +1,7 @@
 ---
 title: Happy bday T. K. Vân D
 status: open
-priority: normal
+priority: "4"
 scheduled: 2026-11-16
 recurrence: DTSTART:20261117;FREQ=YEARLY
 recurrence_anchor: scheduled

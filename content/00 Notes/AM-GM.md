@@ -12,7 +12,9 @@ sr-ease: 250
 ---
 A common, and versatile, inequality.
 
-$$1/n sum_(i=1)^n x_i = root(n,x_1 x_2 dots.h.c  x_n)$$
+$$
+1/n sum_(i=1)^n x_i = root(n,x_1 x_2 dots.h.c  x_n)
+$$
 
 ## Related
 

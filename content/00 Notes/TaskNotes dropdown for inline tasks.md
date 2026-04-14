@@ -1,6 +1,6 @@
 ---
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-03-05T06:23:29.890+07:00
 dateModified: 2026-03-05T06:23:54.389+07:00
 tags:

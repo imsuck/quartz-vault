@@ -5,7 +5,7 @@ tags:
 created: 2026-04-06
 status: open
 title: yap about my own setup
-priority: normal
+priority: "4"
 dateModified: 2026-04-07T07:51:50.937+07:00
 sr-due: 2026-04-25
 sr-interval: 14

@@ -13,9 +13,21 @@ publish: true
 ---
 Measures how much [[Magnetic Field]] passes through a surface. Unit: Weber (Wb)
 
-$$Phi = arrow(B) dot A arrow(n)$$
+$$
+Phi = bold(B) dot bold(A)
+$$
 
-Where $n$ is the unit normal vector of the surface.
+Where $bold(A)$ is the area vector:
+- Magnitude is the area
+- Direction is perpendicular to the surface
+
+Additional info:
+
+$$
+Phi = integral_S bold(B) dot dif bold(A)
+$$
+
+
 
 ## Related
 [[Faraday's Law of Electromagnetic Induction]]

@@ -1,7 +1,7 @@
 ---
 title: TaskNotes reset inline tasks
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-03-04T17:36:09.246+07:00
 dateModified: 2026-03-04T17:36:09.246+07:00
 tags:

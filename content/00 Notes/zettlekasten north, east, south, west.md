@@ -1,7 +1,7 @@
 ---
 title: zettlekasten north, east, south, west
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-04-01T12:26:00.220+07:00
 dateModified: 2026-04-01T12:26:00.220+07:00
 tags:

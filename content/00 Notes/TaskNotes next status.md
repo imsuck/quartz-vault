@@ -4,6 +4,7 @@ categories:
   - "[[Projects]]"
 priority: 2
 due:
+difficulty: 3
 ---
 
 Implement [#167](https://github.com/callumalpass/tasknotes/issues/167) on GitHub?

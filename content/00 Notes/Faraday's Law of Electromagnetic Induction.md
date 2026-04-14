@@ -12,7 +12,9 @@ sr-ease: 250
 ---
 Change in [[Magnetic Flux]] induces electromotive force. We calculate the magnitude using the following formula (negative sign from [[Lenz's Law]]):
 
-$$epsilon = -(dif Phi)/(dif t) ("V")$$
+$$
+epsilon = -(dif Phi)/(dif t) = -dif/(dif t) integral_S bold(B) dot dif bold(A)
+$$
 
 ## Related
 

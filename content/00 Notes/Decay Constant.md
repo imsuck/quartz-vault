@@ -13,7 +13,9 @@ sr-ease: 250
 ---
 Decay constant is unique to an isotope and reflects how radioactive said isotope is.
 
-$$lambda = (ln 2)/T_(1"/"2)$$
+$$
+lambda = (ln 2)/T_(1"/"2)
+$$
 
 - $T_(1"/"2)$: [[Half-life]] of the isotope
 

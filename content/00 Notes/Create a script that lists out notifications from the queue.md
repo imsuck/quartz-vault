@@ -1,9 +1,9 @@
 ---
 title: Create a script that lists out notifications from the queue
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-03-31T20:11:54.555+07:00
-dateModified: 2026-03-31T20:11:54.555+07:00
+dateModified: 2026-04-14T15:48:08.852+07:00
 tags:
   - task
 sr-due: 2026-04-29

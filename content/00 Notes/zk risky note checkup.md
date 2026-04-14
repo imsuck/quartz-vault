@@ -1,7 +1,7 @@
 ---
 title: zk risky note checkup
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-04-06T20:38:25.638+07:00
 dateModified: 2026-04-06T20:38:25.638+07:00
 tags:

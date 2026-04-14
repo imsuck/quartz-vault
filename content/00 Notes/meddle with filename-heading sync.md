@@ -1,7 +1,7 @@
 ---
 title: meddle with filename-heading sync
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-03-03T19:22:39.666+07:00
 dateModified: 2026-03-04T13:41:38.387+07:00
 tags:

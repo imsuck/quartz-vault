@@ -9,7 +9,9 @@ sr-ease: 210
 ---
 ## set goals for thptqg
 
-$$["Điểm xét tuyển"] = 0.7["Điểm năng lực"] + 0.2["Điểm TNTHPT"] + 0.1["Điểm THPT"]$$
+$$
+["Điểm xét tuyển"] = 0.7["Điểm năng lực"] + 0.2["Điểm TNTHPT"] + 0.1["Điểm THPT"]
+$$
 
 **Điểm Toán always ×2.**
 

@@ -1,7 +1,7 @@
 ---
 title: Dorm bills
 status: open
-priority: normal
+priority: "4"
 due: 2026-05-09
 dateCreated: 2026-03-03T16:43:51.063+07:00
 dateModified: 2026-04-07T19:00:30.661+07:00

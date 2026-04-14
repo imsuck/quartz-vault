@@ -1,7 +1,7 @@
 ---
 title: quartz nested tags in graph view
 status: open
-priority: normal
+priority: "4"
 dateCreated: 2026-04-13T20:47:59.368+07:00
 dateModified: 2026-04-13T20:52:00.304+07:00
 tags:
