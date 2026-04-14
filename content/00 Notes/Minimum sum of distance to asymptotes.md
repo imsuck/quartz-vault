@@ -13,6 +13,7 @@ sr-ease: 230
 ### Case $deg(1)/deg(1)$
 
 $$y=(3x+8)/(x+2)$$
+
 $$S= |x+2|+|y-3| = |x+2|+2/(|x+2|)$$
 
 $S$ is minimized when $|x+2| = sqrt(2)$ via [[AM-GM]] ($min S = 2sqrt(2)$)
