@@ -7,6 +7,7 @@ status: open
 sr-due: 2026-04-15
 sr-interval: 1
 sr-ease: 230
+publish: true
 ---
 Given $f(x)=15/(1+14e^(-0.3x))$, maximize $f'(x)$.
 
