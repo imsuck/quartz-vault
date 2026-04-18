@@ -17,3 +17,4 @@ content/.stignore-shared
 content/.stversions
 content/.trash
 99 Templates
+!content/.obsidian/snippets
