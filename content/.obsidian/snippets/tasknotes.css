@@ -1,0 +1,4 @@
+.tasknotes-plugin .task-card__metadata-date--due {
+  color: var(--tn-color-info);
+  font-weight: bold;
+}

@@ -1,0 +1,4 @@
+img[alt~="float-center"] {
+	display: block;
+	margin: auto;
+}

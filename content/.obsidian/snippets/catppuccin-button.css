@@ -1,0 +1,4 @@
+button.mod-cta:not(.clickable-icon) {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}

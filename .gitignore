@@ -4,7 +4,8 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
+content/.obsidian/*
+!content/.obsidian/snippets
 .quartz-cache
 private/
 .replit
@@ -17,4 +18,3 @@ content/.stignore-shared
 content/.stversions
 content/.trash
 99 Templates
-!content/.obsidian/snippets
