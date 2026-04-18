@@ -1,0 +1,72 @@
+filters:
+  and:
+    - categories.contains(link("Projects"))
+formulas:
+  delta: if(due.isEmpty(), null, number(due) - number(now()))
+  daysUntilDue: if(formula.delta == null, null, formula.delta / 86400000)
+  hoursUntilDue: if(formula.delta == null, null, formula.delta / 3600000)
+  minutesUntilDue: if(formula.delta == null, null, formula.delta / 60000)
+  timeWeight: |-
+    if(
+      formula.delta == null,
+      0.2,
+      if(
+        formula.daysUntilDue <= 0,
+        1 + min(2, formula.daysUntilDue.abs() / 3),
+        1 / (1 + formula.daysUntilDue)
+      )
+    )
+  urgencyScore: (number(priority) * formula.timeWeight / difficulty)
+  _untilDue: |-
+    if(
+      formula.delta == null,
+      null,
+      if(
+        formula.hoursUntilDue.abs() < 1,
+        formula.minutesUntilDue.ceil().abs() + " min",
+        if(
+          formula.daysUntilDue.abs() < 1,
+          formula.hoursUntilDue.ceil().abs() + " hr",
+          formula.daysUntilDue.ceil().abs() + " day"
+        )
+      )
+    )
+  untilDue: |-
+    if(
+      formula.delta == null,
+      null,
+      if(
+        formula.daysUntilDue > 0,
+        "in " + formula._untilDue,
+        formula._untilDue + " ago"
+      )
+    )
+properties:
+  formula.untilDue:
+    displayName: until due
+views:
+  - type: table
+    name: Active
+    filters:
+      and:
+        - '!file.inFolder("99 Templates")'
+        - '!file.inFolder("05 Archive")'
+    order:
+      - file.name
+      - status
+      - type
+      - priority
+      - difficulty
+      - formula.untilDue
+    sort:
+      - property: formula.urgencyScore
+        direction: DESC
+    columnSize:
+      file.name: 259
+      note.priority: 88
+      note.difficulty: 104
+  - type: table
+    name: Archived
+    filters:
+      and:
+        - file.inFolder("05 Archive")

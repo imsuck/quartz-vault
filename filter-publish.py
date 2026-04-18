@@ -4,7 +4,9 @@ import fnmatch
 # --- CONFIG ---
 ROOT_DIR = "./content"   # directory to scan
 WHITELIST = [
-    ".obsidian/snippets/*"
+    ".obsidian/snippets/*",
+    "**/Animes.base",
+    "**/Projects.base",
 ]
 BLACKLIST = [
     "03 Bases/tn-*.base",
