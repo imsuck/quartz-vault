@@ -10,7 +10,9 @@ sr-interval: 8
 sr-ease: 210
 publish: true
 ---
+
 ## List of callouts
+
 > [!note]
 
 > [!info]
@@ -38,9 +40,10 @@ publish: true
 > [!quote] Quote | cite
 
 ## Collapsible blocks
+
 - **Syntax**: `> [!callout]+ Title` or `> [!callout]- Title`
   The former leaves the block expanded by default. Whereas, the latter keeps the block collapsed.
-  
+
 > [!info]+ Expanded by default
 > Content
 

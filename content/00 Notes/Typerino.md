@@ -10,9 +10,13 @@ sr-interval: 18
 sr-ease: 250
 publish: true
 ---
+
 [Typerino](https://typerino.com/) is an online typst equation editor.
+
 ## Related
+
 [[Quiver]]
+
 ## Applications
 
 ## References

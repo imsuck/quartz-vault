@@ -13,6 +13,7 @@ publish: true
 ---
 
 ## Data table
+
 Note: ions should be considered aqueous
 
 $$
@@ -52,4 +53,5 @@ $$
 ## See also
 
 ## References
-[Wikipedia page for data](https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page))
+
+[Wikipedia page for data](<https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page)>)

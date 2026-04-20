@@ -215,8 +215,8 @@ plugins:
       links:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
-   # broken for now?? this sorts by name only not sure why
-   # maybe because of plugin order load?
+    # broken for now?? this sorts by name only not sure why
+    # maybe because of plugin order load?
   - source: github:quartz-community/recent-notes
     enabled: false
     options:

@@ -1,4 +1,4 @@
-@font-face { 
+@font-face {
   font-family: "Lexend Deca";
   /* Add other properties here, as needed. For example: */
   /*
@@ -9,7 +9,7 @@
     format("woff2");
 }
 
-@font-face { 
+@font-face {
   font-family: "Fira Code";
   /* Add other properties here, as needed. For example: */
   /*
@@ -20,7 +20,8 @@
     format("woff2");
 }
 
-:root, body {
+:root,
+body {
   --font-interface-theme: "Lexend Deca", sans-serif;
   --font-text-theme: "Lexend Deca", sans-serif;
   --font-monospace-theme: "Fira Code", monospace;

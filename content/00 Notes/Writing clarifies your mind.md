@@ -11,7 +11,9 @@ sr-interval: 18
 sr-ease: 190
 publish: true
 ---
+
 Your mind is a stream of thought, hazy and frantic. By writing things down, you find an anchor to the haphazard house of conciousness. It also helps [[Generation Effect|reinforces memory]].
+
 ## Related
 
 ## Applications

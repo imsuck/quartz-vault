@@ -24,6 +24,7 @@ $$
 Radioactivity is measured in Becquerels ($"Bq" = 1 "s"^(-1)$) or Curie ($1 "Ci" = 3.7 times 10^10 "Bq"$)
 
 ## Related
+
 [[Half-life]]
 
 ## Applications

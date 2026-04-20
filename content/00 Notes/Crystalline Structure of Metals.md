@@ -11,11 +11,15 @@ sr-interval: 12
 sr-ease: 230
 publish: true
 ---
+
 Three main structures:
-- Closed-packed hexagonal structure *CPH*
-- Face-centered cubic structure *FCC*
-- Body-centered cubic structure *BCC*
+
+- Closed-packed hexagonal structure _CPH_
+- Face-centered cubic structure _FCC_
+- Body-centered cubic structure _BCC_
 
 ## See also
+
 [[Metallic bond]]
+
 ## References

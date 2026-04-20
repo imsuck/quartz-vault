@@ -13,8 +13,12 @@ publish: true
 ---
 
 ## Related
+
 [[Philosophy]]
+
 ## Applications
+
 [[Rhetorical situation]]
 [[Rhetoric is the art of persuasion]]
+
 ## References

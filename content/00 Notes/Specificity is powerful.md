@@ -9,8 +9,10 @@ sr-interval: 4
 sr-ease: 130
 publish: true
 ---
+
 Something about pressure (physics)...
 [[Specifying an idea makes it more grounded and approachable]]
 [[Picking a specific audience]]
+
 > [!quote] Original Capture
 > Specificity is powerful

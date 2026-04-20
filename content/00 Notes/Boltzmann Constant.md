@@ -11,7 +11,9 @@ sr-due: 2026-04-21
 sr-interval: 3
 sr-ease: 250
 ---
+
 $k_B$ or $k$.
+
 $$
 #table(
   columns: 2,
@@ -25,6 +27,7 @@ $$
 ## Related
 
 ## Applications
+
 [[Kinetic Energy of Gas]]
 
 ## References
