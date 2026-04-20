@@ -1,7 +1,6 @@
 ---
 categories:
 tags:
-  - atomic
   - moc
   - chemistry
 up:
@@ -10,6 +9,13 @@ status: open
 publish: true
 ---
 An industrial process to produce sodium carbonate (soda, $"Na"_2"CO"_3$) and sodium bicarbonate (baking soda, $"NaHCO"_3$).
-## Related
+
+## Process
+[[Carbonate sodium chloride to create baking soda]]
+
+
+The two main cycles:
+- [[Ammonia Cycle of Solvay Process]]
+- [[Carbon Dioxide Cycle of Solvay Process]]
 
 ## References

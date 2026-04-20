@@ -1,7 +1,7 @@
 ---
 tags:
   - atomic
-  - thought
+  - thinking
 created: 2026-04-06
 status: open
 sr-due: 2026-04-26

@@ -3,8 +3,8 @@ tags:
   - fleeting
 created: 2026-04-07
 status: open
-sr-due: 2026-04-20
-sr-interval: 9
+sr-due: 2026-05-13
+sr-interval: 23
 sr-ease: 250
 publish: true
 ---

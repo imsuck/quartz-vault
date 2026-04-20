@@ -2,7 +2,7 @@
 categories:
 tags:
   - "#atomic"
-  - thought
+  - thinking
 up:
 created: 2026-04-02
 status: open
