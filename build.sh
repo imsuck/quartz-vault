@@ -2,8 +2,12 @@
 
 CACHE_DIR=node_modules/.cache/quartz
 
-if [ -d "$CACHE_DIR" ]; then
+if [ -d ".quartz" ]; then
   rm -rf .quartz
+fi
+
+if [ -d "$CACHE_DIR" ]; then
+  # [ -d .quartz ] && rm -rf .quartz
   # mv "$CACHE_DIR" .quartz
 fi
 
