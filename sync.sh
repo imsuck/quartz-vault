@@ -2,6 +2,6 @@
 
 rm -rf content
 cp -al ~/Documents/notes content
-prettier content --write
 python filter-publish.py
+prettier content --write
 npx quartz sync
