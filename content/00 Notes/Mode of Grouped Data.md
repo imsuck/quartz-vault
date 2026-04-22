@@ -11,14 +11,14 @@ publish: true
 ---
 
 $$
-M = L + (f_1 - f_0)/(2f_1-f_0-f_2) times h
+M = L + (f_1 - f_0)/(2f_1-f_0-f_2) times W
 $$
 
 Where
 
 - $L$: left bound
 - $f_0, f_1, f_2$: freq of prev, cur, next
-- $h$: range of cur
+- $W$: range of cur
 
 ## Related
 

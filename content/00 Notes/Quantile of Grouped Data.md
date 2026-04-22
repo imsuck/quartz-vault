@@ -12,14 +12,14 @@ publish: true
 For an n-tile of a data set with $N$ elements, the i-th n-tile is defined as:
 
 $$
-q_i = L + (i/n times N - "prev")/"freq" times h
+q_i = L + (i/n times N - "prev")/"freq" times W
 $$
 
 Where:
 
 - $L$: left bound of range $[L, R)$ containing $i/n times N$
 - $"prev"$: sum of previous ranges (excluding current)
-- $h = R - L$
+- $W = R - L$
 
 ## Related
 
