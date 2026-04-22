@@ -9,10 +9,10 @@ configuration:
   locale: en-GB
   baseUrl: imsuck.vercel.app
   ignorePatterns:
-    - 03 Bases/tn-*.base
-    - 03 Bases/Notes.base
-    - 03 Bases/Places.base
-    - 03 Bases/People.base
+    - 0* Bases/tn-*.base
+    - 0* Bases/Notes.base
+    - 0* Bases/Places.base
+    - 0* Bases/People.base
     - .obsidian
   theme:
     fontOrigin: googleFonts

@@ -9,7 +9,7 @@ WHITELIST = [
     "**/Projects.base",
 ]
 BLACKLIST = [
-    "03 Bases/tn-*.base",
+    "0* Bases/tn-*.base",
     "private/**",
     "*.bak",
     ".stversions/*"

@@ -25,6 +25,8 @@ Types of notes:
 - #atomic notes: single self-contained ideas linked (agressively) with #literature and other #atomic notes
 - #moc: "molecular notes"--notes composed of other notes (mostly #atomic notes), for bringing ideas together to form complex stuff
 
+Additionally use [[Standard Legal Introductory Signals]].
+
 ## Related
 
 ## Applications

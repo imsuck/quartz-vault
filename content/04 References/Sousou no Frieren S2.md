@@ -14,4 +14,5 @@ tags:
   - genre/drama
   - genre/fantasy
   - genre/adventure
+rating: 7
 ---

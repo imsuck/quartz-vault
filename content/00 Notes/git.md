@@ -2,7 +2,7 @@
 categories:
 tags:
   - atomic
-  - cli
+  - tools/cli
 up:
 created: 2026-04-19
 status: open
@@ -18,6 +18,8 @@ sr-ease: 250
 - Deleting a tag on remote: `git push origin :refs/tags/<tag>`
 
 ## Related
+
+[[Github CLI]]
 
 ## Applications
 

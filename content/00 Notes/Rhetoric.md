@@ -1,7 +1,6 @@
 ---
 categories:
 tags:
-  - atomic
   - moc
 up:
 created: 2026-04-04

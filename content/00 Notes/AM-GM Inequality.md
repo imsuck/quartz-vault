@@ -32,6 +32,7 @@ Where $alpha=sum alpha_i$.
 
 ## Applications
 
-[[Minimum sum of distance to asymptotes]]
+[[Minimum Sum of Distances to Asymptotes]]
+[[Minimum Distance from Point to Improper Rational Function]]
 
 ## References

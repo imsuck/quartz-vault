@@ -1,10 +1,9 @@
 ---
 categories:
 tags:
-  - atomic
   - cs/dsa
   - moc
-up: "[[Tree data structure]]"
+up: "[[Tree Data Structure]]"
 created: 2026-04-10
 status: open
 sr-due: 2026-04-21

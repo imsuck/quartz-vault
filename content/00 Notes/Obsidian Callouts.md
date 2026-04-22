@@ -5,8 +5,8 @@ tags:
 up: "[[Obsidian usage]]"
 created: 2026-03-30
 status: open
-sr-due: 2026-04-21
-sr-interval: 8
+sr-due: 2026-05-11
+sr-interval: 19
 sr-ease: 210
 publish: true
 ---

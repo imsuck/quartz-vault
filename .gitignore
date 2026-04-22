@@ -12,9 +12,9 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
-content/.stignore
-content/.stfolder
-content/.stignore-shared
-content/.stversions
-content/.trash
+.stignore
+.stfolder
+.stignore-shared
+.stversions
+.trash
 99 Templates

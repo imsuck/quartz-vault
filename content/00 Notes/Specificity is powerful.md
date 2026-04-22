@@ -8,6 +8,7 @@ sr-due: 2026-04-20
 sr-interval: 4
 sr-ease: 130
 publish: true
+dateModified: 2026-04-20T20:58:17.783+07:00
 ---
 
 Something about pressure (physics)...

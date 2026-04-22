@@ -1,7 +1,6 @@
 ---
 categories:
 tags:
-  - atomic
   - "#cs/dsa"
   - moc
 up: "[[Tree data structure]]"
@@ -23,9 +22,9 @@ TODO: write more about clusters and stuff
 
 ## Applications
 
-[[Self-adjusting top tree]]
-[[Splay top tree]]
-[[Online dynamic connectivity]]
+[[Self-adjusting Top Tree]]
+[[Splay Top Tree]]
+[[Online Dynamic Connectivity]]
 
 ## References
 

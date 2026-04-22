@@ -14,4 +14,5 @@ tags:
   - genre/drama
   - genre/adventure
 publish: true
+rating: 7
 ---

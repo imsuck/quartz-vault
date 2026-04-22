@@ -3,13 +3,14 @@ categories:
 tags:
   - atomic
   - "#constant"
+  - physics/gas
 up:
 created: 2026-04-18
 status: open
 publish: true
-sr-due: 2026-04-21
-sr-interval: 3
-sr-ease: 250
+sr-due: 2026-04-27
+sr-interval: 5
+sr-ease: 230
 ---
 
 $k_B$ or $k$.
