@@ -7,8 +7,8 @@ up:
 created: 2026-04-10
 status: open
 publish: true
-sr-due: 2026-04-22
-sr-interval: 8
+sr-due: 2026-05-14
+sr-interval: 21
 sr-ease: 250
 ---
 

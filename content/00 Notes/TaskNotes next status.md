@@ -6,7 +6,7 @@ priority: "2"
 due:
 difficulty: 3
 publish: true
-status: in-progress
+status: open
 type:
   - "[[TaskNotes]]"
 ---

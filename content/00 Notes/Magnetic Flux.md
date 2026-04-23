@@ -6,8 +6,8 @@ tags:
 up:
 created: 2026-04-09
 status: open
-sr-due: 2026-04-23
-sr-interval: 9
+sr-due: 2026-05-16
+sr-interval: 23
 sr-ease: 250
 publish: true
 ---

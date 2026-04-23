@@ -3,10 +3,13 @@ categories:
 tags:
   - atomic
   - math/stats
-up: "[[Grouped Data]]"
+up: "[[Grouped data set]]"
 created: 2026-04-22
 status: open
 publish: true
+sr-due: 2026-04-26
+sr-interval: 3
+sr-ease: 250
 ---
 
 For an n-tile of a data set with $N$ elements, the i-th n-tile is defined as:

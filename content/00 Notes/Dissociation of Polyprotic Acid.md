@@ -7,8 +7,8 @@ up: "[[Acid and Base]]"
 created: 2026-04-15
 status: open
 publish: true
-sr-due: 2026-04-23
-sr-interval: 5
+sr-due: 2026-05-05
+sr-interval: 12
 sr-ease: 230
 ---
 

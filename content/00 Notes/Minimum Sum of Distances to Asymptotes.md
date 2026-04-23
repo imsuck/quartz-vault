@@ -2,6 +2,8 @@
 categories:
 tags:
   - atomic
+  - math/opt
+  - math/geo
 up:
 created: 2026-04-13
 status: open

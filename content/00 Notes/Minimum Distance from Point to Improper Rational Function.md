@@ -3,10 +3,14 @@ categories:
 tags:
   - atomic
   - math/geo
+  - math/opt
 up:
 created: 2026-04-22
 status: open
 publish: true
+sr-due: 2026-04-26
+sr-interval: 3
+sr-ease: 250
 ---
 
 Special case for (2, 1) [[Improper Rational Function]] (deg(2)/deg(1)):
