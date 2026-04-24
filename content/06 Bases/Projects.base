@@ -41,6 +41,9 @@ formulas:
         formula._untilDue + " ago"
       )
     )
+  subtasks: file.backlinks.filter(file(value).tags.contains("task")).length
+  completedSubtasks: file.backlinks.filter(file(value).tags.contains("task") && file(value).properties.status == "done").length
+  progress: if(formula.subtasks > 0, formula.completedSubtasks/formula.subtasks, 0) * 100 + "%"
 properties:
   formula.untilDue:
     displayName: until due
@@ -54,6 +57,7 @@ views:
     order:
       - file.name
       - status
+      - formula.progress
       - type
       - priority
       - difficulty
@@ -62,9 +66,12 @@ views:
       - property: formula.urgencyScore
         direction: DESC
     columnSize:
-      file.name: 259
-      note.priority: 88
-      note.difficulty: 104
+      file.name: 229
+      formula.progress: 51
+      note.type: 122
+      note.priority: 14
+      note.difficulty: 14
+      formula.untilDue: 112
   - type: table
     name: Archived
     filters:
