@@ -4,8 +4,8 @@ tags:
   - math
 created: 2026-04-14
 status: open
-sr-due: 2026-04-20
-sr-interval: 3
+sr-due: 2026-04-27
+sr-interval: 2
 sr-ease: 130
 publish: true
 ---

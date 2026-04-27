@@ -10,4 +10,7 @@ tags:
   - task
 difficulty: 4
 publish: true
+sr-due: 2026-04-28
+sr-interval: 3
+sr-ease: 250
 ---
