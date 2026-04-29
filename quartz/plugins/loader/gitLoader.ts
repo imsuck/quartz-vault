@@ -234,11 +234,11 @@ export function installNativeDeps(
   }
 
   try {
-    execSync(`npm install --no-save ${installArgs.join(" ")}`, {
-      cwd: process.cwd(),
-      stdio: options.verbose ? "inherit" : "pipe",
-      timeout: 120_000,
-    })
+    // execSync(`npm install --no-save ${installArgs.join(" ")}`, {
+    //   cwd: process.cwd(),
+    //   stdio: options.verbose ? "inherit" : "pipe",
+    //   timeout: 120_000,
+    // })
 
     if (options.verbose) {
       console.log(

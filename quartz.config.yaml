@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: imsuck's vault
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: v5.quartz-1h4.pages.dev
+  locale: en-GB
+  baseUrl: imsuck.pages.dev
   ignorePatterns:
     - private
     - templates
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Noto Sans
+      body: Lexend
+      code: Fira Code
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#eff1f5"
+        lightgray: "#acb0be"
+        gray: "#bcc0cc"
+        darkgray: "#4c4f69"
+        dark: "#2b2c3b"
+        secondary: "#1e66f5"
+        tertiary: "#40a02b"
+        highlight: rgba(30, 102, 245, 0.12)
+        textHighlight: "#df8e1d88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#24273a"
+        lightgray: "#363a4f"
+        gray: "#6e738d"
+        darkgray: "#cad3f5"
+        dark: "#f4dbd6"
+        secondary: "#8aadf4"
+        tertiary: "#a6da95"
+        highlight: rgba(138, 173, 244, 0.16)
+        textHighlight: "#eed49f88"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -54,14 +54,24 @@ plugins:
     enabled: true
     options:
       theme:
-        light: github-light
-        dark: github-dark
+        light: catppuccin-latte
+        dark: catppuccin-macchiato
       keepBackground: false
     order: 20
   - source: github:quartz-community/obsidian-flavored-markdown
     enabled: true
     options:
+      comments: true
+      highlight: true
+      wikilinks: true
+      callouts: true
+      mermaid: true
+      parseTags: true
+      parseArrows: true
+      parseBlockReferences: true
       enableInHtmlEmbed: false
+      enableYouTubeEmbed: true
+      enableVideoEmbed: true
       enableCheckbox: true
     order: 30
   - source: github:quartz-community/github-flavored-markdown
@@ -81,24 +91,18 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: typst
     order: 80
   - source: github:quartz-community/citations
     enabled: false
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    enabled: false
+    enabled: true
     order: 90
-  - source: github:quartz-community/ox-hugo
-    enabled: false
-    order: 91
-  - source: github:quartz-community/roam
-    enabled: false
-    order: 92
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
-    enabled: false
+    enabled: true
   - source: github:quartz-community/alias-redirects
     enabled: true
   - source: github:quartz-community/content-index
@@ -109,7 +113,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: true
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -125,8 +129,13 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: github:quartz-community/graph
+  - source: github:imsuck/quartz-graph-plugin
     enabled: true
+    options:
+      localGraph:
+        splitNestedTags: true
+      globalGraph:
+        splitNestedTags: true
     layout:
       position: right
       priority: 10
@@ -154,7 +163,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -215,8 +224,14 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
         - aliases
+        - projects
+        - categories
+        - up
+        - status
+        - priority
+        - difficulty
+        - due
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
@@ -224,7 +239,7 @@ plugins:
     order: 5
     layout:
       position: beforeBody
-      priority: 15
+      priority: 35
       display: all
   - source: github:quartz-community/unlisted-pages
     enabled: true
@@ -248,6 +263,10 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
+    order: 50
 layout:
   groups:
     toolbar:
@@ -258,7 +277,6 @@ layout:
     "404":
       positions:
         beforeBody: []
-        left: []
         right: []
     content: {}
     folder:
