@@ -1,0 +1,16 @@
+filters:
+  and:
+    - categories.contains(link("Writing"))
+    - '!file.inFolder("99-templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - created
+      - tags
+      - publish
+    sort:
+      - property: publish
+        direction: ASC
+    columnSize: {}

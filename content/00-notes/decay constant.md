@@ -1,0 +1,29 @@
+---
+tags:
+  - atomic
+  - physics
+  - formulas
+up: "[[radiation]]"
+created: 2026-04-10
+status: open
+publish: true
+sr-due: 2026-05-12
+sr-interval: 20
+sr-ease: 250
+---
+
+Decay constant is unique to an isotope and reflects how radioactive said isotope is.
+
+$$
+lambda = (ln 2)/T_(1"/"2)
+$$
+
+- $T_(1"/"2)$: [[half-life]] of the isotope
+
+## Related
+
+[[radioactivity]]
+
+## Applications
+
+## References

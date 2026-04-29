@@ -1,0 +1,57 @@
+filters:
+  and:
+    - categories.contains(link("Manhwas"))
+    - '!file.inFolder("99-templates")'
+formulas:
+  Untitled: watched.toString() + "/" + episodes.toString()
+  custom sort: if(status=="watching", "0", if(status=="plan-to-watch", "1", if(status=="done","2","9"))) + " " + status
+  premiered value: |-
+    number(premiered.split(" ")[1]) * 10 +
+    (
+      if(premiered.split(" ")[0] == "winter", 1,
+      if(premiered.split(" ")[0] == "spring", 2,
+      if(premiered.split(" ")[0] == "summer", 3,
+      if(premiered.split(" ")[0] == "fall",   4, 0))))
+    )
+properties:
+  formula.Untitled:
+    displayName: progress
+  formula.custom sort:
+    displayName: _status
+  formula.premiered value:
+    displayName: premieredValue
+views:
+  - type: kanban
+    name: Kanban
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - read
+      - episodes
+      - formula.Untitled
+      - link
+    sort:
+      - property: kanban_order
+        direction: ASC
+    boardColumns:
+      - reading
+      - plan-to-read
+      - done
+      - dropped
+  - type: table
+    name: Table
+    groupBy:
+      property: formula.custom sort
+      direction: ASC
+    order:
+      - file.name
+      - formula.Untitled
+      - premiered
+      - formula.premiered
+    sort:
+      - property: formula.premiered value
+        direction: ASC
+    summaries:
+      formula.custom sort: new summary
