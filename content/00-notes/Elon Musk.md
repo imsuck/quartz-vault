@@ -3,7 +3,9 @@ categories: "[[People]]"
 birthdate: 1971-07-28
 org:
 aliases:
-from: "[[Real world]]"
+from: "[[real world]]"
 created: 2026-03-29
 publish: true
 ---
+
+He's real I guess?

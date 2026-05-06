@@ -7,12 +7,12 @@ up:
 created: 2026-04-22
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 3
+sr-due: 2026-05-17
+sr-interval: 15
 sr-ease: 250
 ---
 
-Special case for (2, 1) [[improper rational function]] (deg(2)/deg(1)):
+Special case for deg(2/1) [[improper rational function]]:
 
 $$
 A=(x, f(x)) \

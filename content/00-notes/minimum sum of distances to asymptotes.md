@@ -7,8 +7,8 @@ up:
 created: 2026-04-13
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 4
+sr-due: 2026-05-15
+sr-interval: 13
 sr-ease: 170
 ---
 
@@ -29,6 +29,8 @@ $S$ is minimized when $|x+2| = sqrt(2)$ via [[AM-GM inequality]] ($min S = 2sqrt
 Too hard will fill in later but the idea is pretty similar--reducing to AM-GM.
 
 ## Related
+
+cf. [[minimum distance from point to improper rational function]]
 
 ## Applications
 

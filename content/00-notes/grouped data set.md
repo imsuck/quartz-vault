@@ -11,7 +11,7 @@ sr-interval: 3
 sr-ease: 250
 ---
 
-Data grouped into classes (ranges) so you don't know their discrete values. Sometimes represented by [[Histogram]].
+Data grouped into classes (ranges) so you don't know their discrete values. Sometimes represented by a [[histogram]].
 
 ## Metrics
 

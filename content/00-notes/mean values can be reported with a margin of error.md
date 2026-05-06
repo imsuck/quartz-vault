@@ -7,6 +7,9 @@ up:
 created: 2026-04-27
 status: open
 publish: true
+sr-due: 2026-05-13
+sr-interval: 8
+sr-ease: 250
 ---
 
 [[mean]] values sometimes go with a [[margin of error]].

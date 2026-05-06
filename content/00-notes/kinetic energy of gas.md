@@ -2,16 +2,16 @@
 tags:
   - atomic
   - physics/gas
-up: "[[Ideal Gas]]"
+up: "[[ideal gas]]"
 created: 2026-04-17
 status: open
 publish: true
-sr-due: 2026-05-02
-sr-interval: 10
+sr-due: 2026-05-27
+sr-interval: 25
 sr-ease: 250
 ---
 
-Applies for [[ideal gas]].
+Applies for [[ideal gas]]es.
 Relates kinetic energy of gas with [[gas temperature]]
 
 $$

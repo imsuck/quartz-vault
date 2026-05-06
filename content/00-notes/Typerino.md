@@ -1,12 +1,12 @@
 ---
 tags:
-  - atomic
-  - tools
+  - reference
+  - tools/web
 up:
 created: 2026-04-08
 status: open
-sr-due: 2026-05-06
-sr-interval: 18
+sr-due: 2026-06-20
+sr-interval: 45
 sr-ease: 250
 publish: true
 ---
@@ -16,7 +16,5 @@ publish: true
 ## Related
 
 [[Quiver]]
-
-## Applications
 
 ## References

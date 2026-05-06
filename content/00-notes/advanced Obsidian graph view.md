@@ -11,14 +11,12 @@ created: 2026-04-23
 publish: true
 ---
 
-Create a replacement for Obsidian graph view with advanced feature for community detection and find related notes from link structures.
+Use [obsidian-typings](https://github.com/Fevol/obsidian-typings) to modify the core plugin.
+Interesting types:
 
-- Rendering: https://github.com/pixijs/pixijs
-- WASM force engine: https://www.npmjs.com/package/@antv/layout-wasm
-  https://layout.antv.vision/guide/introduction/
-- graph analytic algos: hand roll myself in C++ I guess :( (or just do it in javascript might be fast enough)
+- [GraphData](https://fevol.github.io/obsidian-typings/api/obsidian-typings/namespaces/internals/interfaces/graphdata/)
+- [GraphNodeData](https://fevol.github.io/obsidian-typings/api/obsidian-typings/namespaces/internals/interfaces/graphnodedata/)
+- [GraphColorAttributes](https://fevol.github.io/obsidian-typings/api/obsidian-typings/namespaces/internals/interfaces/graphcolorattributes/)
+- [GraphColorGroup](https://fevol.github.io/obsidian-typings/api/obsidian-typings/namespaces/internals/interfaces/graphcolorgroup/)
 
-See [SkepticMystic/graph-analysis](https://github.com/SkepticMystic/graph-analysis) for some big ideas.
-https://github.com/AlexW00/obsidian-3d-graph
-https://github.com/kctekn/obsidian-TagsRoutes
-https://github.com/HEmile/obsidian-neo4j-graph-view
+Useful reference: [extended graph](https://github.com/ElsaTam/obsidian-extended-graph)

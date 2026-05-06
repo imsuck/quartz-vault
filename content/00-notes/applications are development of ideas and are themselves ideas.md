@@ -4,9 +4,9 @@ tags:
   - atomic
 created: 2026-04-08
 status: open
-sr-due: 2026-04-27
-sr-interval: 11
-sr-ease: 230
+sr-due: 2026-05-18
+sr-interval: 16
+sr-ease: 210
 publish: true
 ---
 
@@ -14,9 +14,8 @@ What applications are really is to refine and shape ideas into something that ca
 
 ## Related
 
+[[implementation generates new idea]]
+
 ## Applications
 
 ## References
-
-> [!quote] Original Capture
-> Applications are development of ideas and are themselves ideas

@@ -53,7 +53,7 @@ views:
     filters:
       and:
         - '!file.inFolder("99-templates")'
-        - '!file.inFolder("05-archive")'
+        - '!file.inFolder("04-archive")'
     order:
       - file.name
       - status

@@ -1,14 +1,14 @@
 ---
 tags:
-  - atomic
+  - reference
   - math/stats
   - formulas
 up: "[[grouped data set]]"
 created: 2026-04-22
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 3
+sr-due: 2026-05-16
+sr-interval: 14
 sr-ease: 250
 ---
 

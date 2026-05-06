@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics
   - formulas
 up: "[[radiation]]"

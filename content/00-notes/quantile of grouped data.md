@@ -1,13 +1,13 @@
 ---
 tags:
-  - atomic
+  - reference
   - math/stats
 up: "[[grouped data set]]"
 created: 2026-04-22
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 3
+sr-due: 2026-06-11
+sr-interval: 40
 sr-ease: 250
 ---
 
@@ -22,6 +22,8 @@ Where:
 - $L$: left bound of range $[L, R)$ containing $i/n times N$
 - $"prev"$: sum of previous ranges (excluding current)
 - $W = R - L$
+
+The idea is to perform [[interpolation]] on the range containing the n-tile.
 
 ## Related
 

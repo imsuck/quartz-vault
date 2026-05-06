@@ -6,12 +6,16 @@ up:
 created: 2026-04-21
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 3
+sr-due: 2026-05-16
+sr-interval: 14
 sr-ease: 250
 ---
 
 Keeping a list of favorite things (not necessarily problems) that you keep coming back to. This helps linking ideas and finding connections (I guess?).
+
+## See also
+
+[[writing notes should make you think harder]]
 
 ## References
 

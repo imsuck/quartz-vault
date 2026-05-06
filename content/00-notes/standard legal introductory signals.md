@@ -5,8 +5,8 @@ up: "[[Note taking]]"
 created: 2026-04-21
 status: open
 publish: true
-sr-due: 2026-04-26
-sr-interval: 3
+sr-due: 2026-05-17
+sr-interval: 15
 sr-ease: 250
 ---
 

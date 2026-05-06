@@ -11,7 +11,7 @@ sr-ease: 250
 publish: true
 ---
 
-Measures how much [[Magnetic Field]] passes through a surface. Unit: Weber (Wb)
+Measures how much [[magnetic field]] passes through a surface. Unit: Weber (Wb)
 
 $$
 Phi = bold(B) dot bold(A)

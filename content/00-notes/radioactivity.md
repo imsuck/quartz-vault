@@ -1,14 +1,14 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics
   - formulas
 up: "[[radiation]]"
 created: 2026-04-10
 status: open
 publish: true
-sr-due: 2026-04-27
-sr-interval: 9
+sr-due: 2026-05-28
+sr-interval: 26
 sr-ease: 230
 ---
 
