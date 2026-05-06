@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - chemistry
 up: "[[Solvay process]]"
 created: 2026-04-27

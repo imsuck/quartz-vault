@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - tools/web
 up:
 created: 2026-04-08
