@@ -20,3 +20,5 @@ Interesting types:
 - [GraphColorGroup](https://fevol.github.io/obsidian-typings/api/obsidian-typings/namespaces/internals/interfaces/graphcolorgroup/)
 
 Useful reference: [extended graph](https://github.com/ElsaTam/obsidian-extended-graph)
+
+- [[filter by modularity class of note]]

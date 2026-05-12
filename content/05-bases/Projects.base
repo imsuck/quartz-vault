@@ -76,4 +76,4 @@ views:
     name: Archived
     filters:
       and:
-        - file.inFolder("05 Archive")
+        - file.inFolder("04-archive")

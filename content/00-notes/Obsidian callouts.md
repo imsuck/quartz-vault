@@ -1,11 +1,11 @@
 ---
 tags:
-  - "#atomic"
+  - reference
 up: "[[Obsidian usage]]"
 created: 2026-03-30
 status: open
-sr-due: 2026-05-11
-sr-interval: 19
+sr-due: 2026-06-22
+sr-interval: 41
 sr-ease: 210
 publish: true
 ---

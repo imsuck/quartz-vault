@@ -1,13 +1,13 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics/em
 up:
 created: 2026-04-09
 status: open
 publish: true
-sr-due: 2026-05-12
-sr-interval: 20
+sr-due: 2026-07-01
+sr-interval: 50
 sr-ease: 250
 ---
 

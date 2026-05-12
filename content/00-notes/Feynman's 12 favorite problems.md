@@ -13,7 +13,7 @@ sr-ease: 250
 
 Keeping a list of favorite things (not necessarily problems) that you keep coming back to. This helps linking ideas and finding connections (I guess?).
 
-## See also
+## Related
 
 [[writing notes should make you think harder]]
 

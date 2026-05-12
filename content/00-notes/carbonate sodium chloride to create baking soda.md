@@ -6,8 +6,8 @@ up: "[[Solvay process]]"
 created: 2026-04-27
 status: open
 publish: true
-sr-due: 2026-05-08
-sr-interval: 3
+sr-due: 2026-05-21
+sr-interval: 11
 sr-ease: 250
 ---
 

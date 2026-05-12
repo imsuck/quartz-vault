@@ -20,8 +20,4 @@ $$
 
 This can be used to predict products of reactions with acidic salts.
 
-## Related
-
-## Applications
-
 ## References

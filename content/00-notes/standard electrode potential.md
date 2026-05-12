@@ -49,8 +49,6 @@ $$
 )
 $$
 
-## See also
-
 ## References
 
 [Wikipedia page for data](<https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page)>)

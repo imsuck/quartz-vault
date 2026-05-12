@@ -1,11 +1,11 @@
 ---
 tags:
-  - atomic
+  - reference
   - math/opt
 created: 2026-04-14
 status: open
-sr-due: 2026-05-12
-sr-interval: 7
+sr-due: 2026-05-22
+sr-interval: 10
 sr-ease: 130
 publish: true
 ---

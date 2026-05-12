@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - math/geo
   - math/opt
 up:

@@ -4,4 +4,5 @@ tags:
 publish: true
 ---
 
+[[Projects.base]]
 ![[Projects.base]]

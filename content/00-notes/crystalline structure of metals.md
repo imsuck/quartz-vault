@@ -17,7 +17,7 @@ Three main structures:
 - Face-centered cubic structure _FCC_
 - Body-centered cubic structure _BCC_
 
-## See also
+## Related
 
 [[Metallic bond]]
 
