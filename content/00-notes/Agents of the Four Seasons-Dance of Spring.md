@@ -1,7 +1,7 @@
 ---
 categories:
   - "[[Animes]]"
-status: plan-to-watch
+status: watching
 playlist: https://aniwatchtv.to/agents-of-the-four-seasons-dance-of-spring-20650
 watched: 0
 episodes: 14
@@ -14,4 +14,5 @@ tags:
   - genre/fantasy
   - genre/romance
 publish: true
+kanban_order: 0
 ---

@@ -5,8 +5,8 @@ projects:
   - "[[advanced Obsidian graph view]]"
 status: open
 publish: true
-sr-due: 2026-05-19
-sr-interval: 9
+sr-due: 2026-06-14
+sr-interval: 25
 sr-ease: 250
 ---
 

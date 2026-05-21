@@ -15,6 +15,6 @@ Increasing the margin of error means you're more likely to capture the outlier, 
 
 ## Related
 
-cf. [[perfection is the enemy of done]]
+cf. [[perfect is the enemy of done]]
 
 ## References
