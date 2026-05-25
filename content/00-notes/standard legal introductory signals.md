@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
 up: "[[Note taking]]"
 created: 2026-04-21
 status: open

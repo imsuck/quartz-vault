@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - tools/cli
 up:
 created: 2026-04-19

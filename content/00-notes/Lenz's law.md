@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics/em
 up: "[[the universe hates changes]]"
 created: 2026-04-14

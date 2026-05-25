@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics/em
 up:
 created: 2026-04-09

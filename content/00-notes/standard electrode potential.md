@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - chemistry
 up:
 created: 2026-03-31

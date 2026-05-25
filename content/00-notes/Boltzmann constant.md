@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - "#constants"
   - physics/gas
 up:

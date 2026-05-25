@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - literature
   - thinking
 up:
 created: 2026-04-21

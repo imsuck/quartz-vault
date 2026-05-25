@@ -1,6 +1,6 @@
 ---
 tags:
-  - atomic
+  - reference
   - physics/gas
 up: "[[ideal gas]]"
 created: 2026-04-17
