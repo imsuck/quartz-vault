@@ -4,8 +4,8 @@ tags:
   - atomic
 created: 2026-04-08
 status: open
-sr-due: 2026-05-18
-sr-interval: 16
+sr-due: 2026-07-05
+sr-interval: 41
 sr-ease: 210
 publish: true
 ---

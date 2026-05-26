@@ -5,9 +5,9 @@ tags:
 up: "[[linearization of distance constraints (by subtraction)]]"
 created: 2026-04-23
 status: open
-sr-due: 2026-05-16
-sr-interval: 14
-sr-ease: 250
+sr-due: 2026-06-01
+sr-interval: 7
+sr-ease: 210
 publish: true
 ---
 

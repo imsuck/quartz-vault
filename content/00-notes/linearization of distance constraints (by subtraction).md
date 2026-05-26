@@ -6,8 +6,8 @@ up: "[[Linearization of Polynomials]]"
 created: 2026-04-21
 status: open
 publish: true
-sr-due: 2026-05-18
-sr-interval: 16
+sr-due: 2026-07-13
+sr-interval: 49
 sr-ease: 250
 ---
 
