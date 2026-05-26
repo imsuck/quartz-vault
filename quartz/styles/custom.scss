@@ -35,3 +35,8 @@
 .folder-button {
   transform: translateX(-1em);
 }
+
+.flex-component svg,
+.graph-outer svg {
+  fill: var(--darkgray);
+}
