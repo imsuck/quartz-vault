@@ -163,6 +163,12 @@
       "commit": "186d6bd990a1b88ab35c4f66ea4f257f1e7b4a51",
       "installedAt": "2026-05-26T00:37:57.397Z"
     },
+    "obsidian-plugin-excalidraw": {
+      "source": "github:quartz-community/obsidian-plugin-excalidraw",
+      "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
+      "commit": "9c5ff6bd6d2ee27814aeaf98ac4ddfd025a985fa",
+      "installedAt": "2026-05-26T00:48:13.957Z"
+    },
     "og-image": {
       "source": "github:quartz-community/og-image",
       "resolved": "https://github.com/quartz-community/og-image.git",
