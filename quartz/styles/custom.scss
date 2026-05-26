@@ -23,6 +23,7 @@
   &::before {
     color: var(--secondary);
     content: "\f07b";
+    width: 1.1em;
   }
 
   &:has(+ .folder-outer.open)::before {
