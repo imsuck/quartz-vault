@@ -130,8 +130,8 @@
     "footer": {
       "source": "github:quartz-community/footer",
       "resolved": "https://github.com/quartz-community/footer.git",
-      "commit": "fd8b652e6e62050ad8e210f0795d2d5e71cea41b",
-      "installedAt": "2026-05-25T05:31:16.983Z"
+      "commit": "9e3f6d734d886eac0d41841c4dc8862b377fcaf4",
+      "installedAt": "2026-05-26T00:37:55.248Z"
     },
     "github-flavored-markdown": {
       "source": "github:quartz-community/github-flavored-markdown",
@@ -160,8 +160,8 @@
     "obsidian-flavored-markdown": {
       "source": "github:quartz-community/obsidian-flavored-markdown",
       "resolved": "https://github.com/quartz-community/obsidian-flavored-markdown.git",
-      "commit": "ecff614ae6dd5158970b52026ba5db5500096c60",
-      "installedAt": "2026-05-25T05:31:03.560Z"
+      "commit": "186d6bd990a1b88ab35c4f66ea4f257f1e7b4a51",
+      "installedAt": "2026-05-26T00:37:57.397Z"
     },
     "og-image": {
       "source": "github:quartz-community/og-image",
@@ -178,8 +178,8 @@
     "quartz-graph-plugin": {
       "source": "github:imsuck/quartz-graph-plugin",
       "resolved": "https://github.com/imsuck/quartz-graph-plugin.git",
-      "commit": "77d59de469ed1adf6d070d81afab482b53a0438e",
-      "installedAt": "2026-05-22T02:34:44.881Z"
+      "commit": "f6f8f92b4fa72df73d3f5f50acc47ce5acbcad54",
+      "installedAt": "2026-05-26T00:37:58.928Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
