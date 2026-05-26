@@ -4,9 +4,7 @@ import * as ExternalPlugin from "./.quartz/plugins"
 import type { ExplorerOptions } from "./.quartz/plugins"
 
 const explorerPrefixes: ExplorerOptions["mapFn"] = (node) => {
-  if (node.isFolder) {
-    node.displayName = ` ${node.displayName}`
-  } else {
+  if (!node.isFolder) {
     node.displayName = ` ${node.displayName}`
   }
   return node
