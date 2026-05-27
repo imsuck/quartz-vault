@@ -184,8 +184,8 @@
     "quartz-graph-plugin": {
       "source": "github:imsuck/quartz-graph-plugin",
       "resolved": "https://github.com/imsuck/quartz-graph-plugin.git",
-      "commit": "f6f8f92b4fa72df73d3f5f50acc47ce5acbcad54",
-      "installedAt": "2026-05-26T00:37:58.928Z"
+      "commit": "5de69ee7ab65f2f71b1851192308fa665d96f419",
+      "installedAt": "2026-05-27T12:09:59.392Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
