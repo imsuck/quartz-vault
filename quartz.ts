@@ -43,9 +43,9 @@ const possiblePageTitles = [
   "(˵•̀ ᴗ •́˵)~✧",
   "(૮ ᵕ•̀ )૮~✧",
   "一人一つ",
-];
+]
 function getRandomPageTitle(): string {
-  return possiblePageTitles[Math.floor(Math.random() * possiblePageTitles.length)];
+  return possiblePageTitles[Math.floor(Math.random() * possiblePageTitles.length)]
 }
 
 const config = await loadQuartzConfig({
