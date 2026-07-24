@@ -5,7 +5,13 @@
       "source": "github:imsuck/quartz-graph-plugin",
       "resolved": "https://github.com/imsuck/quartz-graph-plugin.git",
       "commit": "dd593efe300f2c44c72afe464d6da48af4c79fd2",
-      "installedAt": "2026-07-24T14:54:43.665Z"
+      "installedAt": "2026-07-24T15:00:08.776Z"
+    },
+    "tui": {
+      "source": "github:quartz-community/tui",
+      "resolved": "https://github.com/quartz-community/tui.git",
+      "commit": "d1d51a626ef84a6f4d0933cce2b834a9db92282b",
+      "installedAt": "2026-07-24T15:00:08.782Z"
     }
   }
 }
