@@ -15,4 +15,5 @@ tags:
   - genre/adventure
 publish: true
 rating: 7
+kanban_order: V1
 ---

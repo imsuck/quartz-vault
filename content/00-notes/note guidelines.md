@@ -4,9 +4,9 @@ tags:
 up: "[[note taking]]"
 created: 2026-04-06
 status: open
-sr-due: 2026-07-03
-sr-interval: 54
-sr-ease: 250
+sr-due: 2026-09-20
+sr-interval: 72
+sr-ease: 230
 publish: true
 ---
 

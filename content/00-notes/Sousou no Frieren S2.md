@@ -15,4 +15,5 @@ tags:
   - genre/fantasy
   - genre/adventure
 rating: 7
+kanban_order: V2
 ---

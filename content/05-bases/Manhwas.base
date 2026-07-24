@@ -3,7 +3,9 @@ filters:
     - categories.contains(link("Manhwas"))
     - '!file.inFolder("99-templates")'
 formulas:
-  Untitled: watched.toString() + "/" + episodes.toString()
+  Untitled: |-
+    read
+    .toString() + "/" + episodes.toString()
   custom sort: if(status=="watching", "0", if(status=="plan-to-watch", "1", if(status=="done","2","9"))) + " " + status
   premiered value: |-
     number(premiered.split(" ")[1]) * 10 +
