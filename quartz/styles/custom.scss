@@ -29,6 +29,7 @@
   &:has(+ .folder-outer.open)::before {
     color: var(--secondary);
     content: "\f07c";
+    transform: translateX(-1px);
   }
 }
 
