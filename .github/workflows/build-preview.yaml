@@ -1,19 +1,15 @@
-name: Deploy v5
+name: Build Preview Deployment
 
 on:
-  push:
-    branches:
-      - v5
+  pull_request:
+    types: [opened, synchronize]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  deployments: write
-
 jobs:
-  deploy-v5:
+  build-preview:
+    if: ${{ github.repository == 'jackyzha0/quartz' }}
     runs-on: ubuntu-latest
-    name: Deploy v5 to Cloudflare Pages
+    name: Build Preview
     steps:
       - uses: actions/checkout@v6
         with:
@@ -22,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: 22
 
       - name: Cache dependencies
         uses: actions/cache@v5
@@ -49,15 +45,10 @@ jobs:
         run: npm run check
 
       - name: Build Quartz
-        run: npx quartz build -v
+        run: npx quartz build -d docs -v
 
-      - name: Deploy to Cloudflare Pages
-        uses: AdrianGonz97/refined-cf-pages-action@v1
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v7
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectName: imsuck
-          deploymentName: "imsuck's vault"
-          branch: v5
-          directory: public
+          name: preview-build
+          path: public
