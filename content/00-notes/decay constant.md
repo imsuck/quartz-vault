@@ -8,8 +8,8 @@ up: "[[radiation]]"
 created: 2026-04-10
 status: open
 publish: true
-sr-due: 2026-07-19
-sr-interval: 60
+sr-due: 2026-12-27
+sr-interval: 156
 sr-ease: 250
 ---
 
