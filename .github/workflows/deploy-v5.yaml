@@ -44,13 +44,11 @@ jobs:
           npm install
           npm approve-scripts esbuild sharp @parcel/watcher
 
-      - run: ls node_modules
-
       - name: Install Quartz plugins
         run: npx quartz plugin install
 
-      # - name: Check types and style
-      #   run: npm run check
+      - name: Check types and style
+        run: npm run check
 
       - name: Build Quartz
         run: npx quartz build -v
