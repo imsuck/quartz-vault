@@ -40,7 +40,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-plugins-
 
-      - run: npm install
+      - run: |
+          npm install
+          npm approve-scripts esbuild sharp @parcel/watcher
+
+      - run: ls node_modules
 
       - name: Install Quartz plugins
         run: npx quartz plugin install
