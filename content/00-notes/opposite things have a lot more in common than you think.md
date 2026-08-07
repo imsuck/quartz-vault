@@ -17,6 +17,6 @@ For us to perceive two different concepts or entities as "opposite," we first re
 
 Using this idea that contrary things do have common ground, we can then focus on this shared interest to help resolve issues more effectively. [insert concrete example...]
 
-## See also
+## Related
 
 cf. [[opposite things can't simultaneously exist]]
