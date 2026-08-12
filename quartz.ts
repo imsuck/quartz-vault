@@ -1,7 +1,6 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 
-import * as ExternalPlugin from "./.quartz/plugins"
-import type { ExplorerOptions } from "./.quartz/plugins"
+import { Explorer, ExplorerOptions } from "@quartz-community/explorer";
 
 const explorerPrefixes: ExplorerOptions["mapFn"] = (node) => {
   if (!node.isFolder) {
@@ -10,7 +9,7 @@ const explorerPrefixes: ExplorerOptions["mapFn"] = (node) => {
   return node
 }
 
-ExternalPlugin.Explorer({
+Explorer({
   mapFn: explorerPrefixes,
 })
 
