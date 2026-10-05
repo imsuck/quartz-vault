@@ -9,6 +9,7 @@ publish: true
 ---
 
 Need this for kdeconnect to work across different networks.
+
 ```sh
 firewall-cmd --permanent --new-zone=tailscale
 firewall-cmd --permanent --zone=tailscale --add-interface=tailscale0
