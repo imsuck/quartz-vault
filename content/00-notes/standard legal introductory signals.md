@@ -1,7 +1,7 @@
 ---
 tags:
   - reference
-up: "[[Note taking]]"
+up: "[[note taking]]"
 created: 2026-04-21
 status: open
 publish: true

@@ -67,7 +67,7 @@ views:
         direction: DESC
     columnSize:
       file.name: 229
-      formula.progress: 51
+      formula.progress: 45
       note.type: 122
       note.priority: 14
       note.difficulty: 14
