@@ -69,7 +69,7 @@ $$
 
 # Going exterior
 
-The previous method relied on calculating the interior weighted area of a triangle. But with [Green's theorem](https://en.wikipedia.org/wiki/Green's_theorem) --a special case of [Generalized Stokes theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem), I just have to say it :)--we can compute path integrals instead
+The previous method relied on calculating the interior weighted area of a triangle. But with [Green's theorem](https://en.wikipedia.org/wiki/Green's_theorem) --_a special case of [Generalized Stokes theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem), I just have to say it :)_--we can compute path integrals instead
 
 $$
 integral.double_D ((partial Q)/(partial x) - (partial P)/(partial y)) dif x dif y = integral.cont_(partial D) P dif x + Q dif y
