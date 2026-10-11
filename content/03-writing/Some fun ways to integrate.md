@@ -119,4 +119,4 @@ $$
 
 # Conclusion
 
-Integration is, itself, an art, the art that I find myself difficult to truly wield. There are still plenty of unconventional ways to integrate $integral_1^e x^2 ln x dif x$. Sadly however, I do not yet have the knowledge required to fully grasp them. Maybe another time!
+Integration is, itself, an art, the art that I still find difficult to truly wield. There are still plenty of unconventional ways to integrate $integral_1^e x^2 ln x dif x$. Sadly however, I do not yet have the knowledge required to fully grasp them. Maybe another time!
