@@ -26,12 +26,17 @@ views:
     groupBy:
       property: status
       direction: ASC
+    groupOrder:
+      - plan-to-watch
+      - watching
+      - done
     order:
       - file.name
+      - tags
+      - aliases
       - watched
       - episodes
       - formula.Untitled
-      - aliases
     sort:
       - property: formula.premiered value
         direction: ASC

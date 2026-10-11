@@ -13,3 +13,8 @@ blockedBy:
     reltype: FINISHTOSTART
 publish: true
 ---
+
+- Characteristic equation (homogeneous)
+- Undetermined coefficients
+- Laplacian transformation (and inverse)
+- Green's function
