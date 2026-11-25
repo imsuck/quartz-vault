@@ -54,6 +54,9 @@ views:
       and:
         - '!file.inFolder("99-templates")'
         - '!file.inFolder("04-archive")'
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - file.name
       - status
